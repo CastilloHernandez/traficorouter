@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="TraficoRouter.exe" version="1.0.0.0" publicKeyToken="03a84b62b97451e6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TraficoRouter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TraficoRouter.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Windows.Forms.DataVisualization.dll" size="1753088">
+      <assemblyIdentity name="System.Windows.Forms.DataVisualization" version="3.5.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>XKJb4uX9UgWXHJMcMO5SvRhV7QU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TraficoRouter.exe" size="49152">
+      <assemblyIdentity name="TraficoRouter" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>HOuIxg1OOEYeVCWK42J7cpc9CWM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=XPS\Administrador" issuerKeyHash="4e8a812533d33d0c92ea68370e82c8b81ae58c79" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>KrYn5jWjdd9y8ampV72LyqRI1ao=</DigestValue></Reference></SignedInfo><SignatureValue>go6L2bPLXqdOILjtSo0ZNzxco2GjQR9lhTpsUYZ1YdXcDf24Uapr0eSG3Vy1flZH+KfdyMFh9gYw4wdY6XYBiVdRnsQdv9zGOcMJyHaZbTd+W3TQjnX17bgskaxcwUsmAagDsitnfVyqTvVnZ3eu7sc9wZ2hl1XTWXXED/BGg/g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>hq2AMLIZdEpFpvQFARJh2RVVzjgdK4neJ3jnOmerxo1PsUJw/NDfIHtt4U2mVagPoZDZQNfu0QhCesKMLvL6Wq7D2ZxQGsw1P2QlqeOA0MmPh0q9EBIdfuGQ/YB31DIEzWXuTumW3et8DWsYkH45yG87Lj0bTpqbdRNDpRqI2Ic=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aad548a4ca8bbd57a9a9f172df75a335e627b62a" Description="" Url=""><as:assemblyIdentity name="TraficoRouter.exe" version="1.0.0.0" publicKeyToken="03a84b62b97451e6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=XPS\Administrador</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>D4bG8NJhJA8SAh2wiWjPCOPvJNc=</DigestValue></Reference></SignedInfo><SignatureValue>cDbDeBcytAhPlIdgp1JvQZoSvYLx5R9wnNabZA/fldmbCDYjdo7PWCo3i6piq31mfv56v4UbizrmJoFpzTftNv1AgEJNIUNmoENx1L2x8qyOKfysswsgmxp4H3I727cc1crdt1ZDyNdPopOVC1wRsjN9u87v5yPdo1n2ujJqA4E=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>hq2AMLIZdEpFpvQFARJh2RVVzjgdK4neJ3jnOmerxo1PsUJw/NDfIHtt4U2mVagPoZDZQNfu0QhCesKMLvL6Wq7D2ZxQGsw1P2QlqeOA0MmPh0q9EBIdfuGQ/YB31DIEzWXuTumW3et8DWsYkH45yG87Lj0bTpqbdRNDpRqI2Ic=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAUKgAwIBAgIQLaJ623KG7bRIDDnVmHJS4jAJBgUrDgMCHQUAMC0xKzApBgNVBAMeIgBYAFAAUwBcAEEAZABtAGkAbgBpAHMAdAByAGEAZABvAHIwHhcNMTYwNDI1MjIwNDM2WhcNMTcwNDI2MDQwNDM2WjAtMSswKQYDVQQDHiIAWABQAFMAXABBAGQAbQBpAG4AaQBzAHQAcgBhAGQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCGrYAwshl0SkWm9AUBEmHZFVXOOB0rid4neOc6Z6vGjU+xQnD80N8ge23hTaZVqA+hkNlA1+7RCEJ6wowu8vparsPZnFAazDU/ZCWp44DQyY+HSr0QEh1+4ZD9gHfUMgTNZe5O6Zbd63wNaxiQfjnIbzsuPRtOmpt1E0OlGojYhwIDAQABMAkGBSsOAwIdBQADgYEANiBd8aPekVA2pfbuZXsG1kT19UMJ79pojk+eHHzkbiwrG3qaKLF0PRnDDVRvMxGtnF0m5ntm4/FlZtBkhVmAakTJSaLp6cwwUwj/miSIdHO6gyqSareFoivOqkqCBsmdN7EY8ZjAWfWnNpCCQXX1GNH+5WSbf5MH+gHEghW3f40=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
