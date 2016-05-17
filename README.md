@@ -26,62 +26,62 @@
 
 ## Contenido
 
-### Carpeta de Diagramas
+* Carpeta de Diagramas
 
-#### Diagramas del proyecto
+	* Diagramas del proyecto
 
-	* Diagramas electricos
+		* Diagramas electricos
 
-	* Diagramas de bloques
+		* Diagramas de bloques
 
-	* Dibujos
+		* Dibujos
 
-### Carpeta de Documentos
+* Carpeta de Documentos
 
-#### Documentos pensados para el usuario final
+	* Documentos pensados para el usuario final
 
-	* Manuales de usuario
+		* Manuales de usuario
 
-	* Manuales de programacion
+		* Manuales de programacion
 
-### Carpeta de Fotos
+* Carpeta de Fotos
 
-#### Fotos del proyecto antes, durante y despues del desarrollo del mismo
+	* Fotos del proyecto antes, durante y despues del desarrollo del mismo
 
-	* Fotos
+		* Fotos
 
-	* Capturas de pantalla
+		* Capturas de pantalla
 
-### Carpeta de Historial
+* Carpeta de Historial
 
-#### Documentacion del desarrollo del proyecto
+	* Documentacion del desarrollo del proyecto
 
-	* Hojas de datos de componentes
+		* Hojas de datos de componentes
 
-	* Manuales de usuario de componentes
+		* Manuales de usuario de componentes
 
-	* Documentacion de funciones, herramientas
+		* Documentacion de funciones, herramientas
 
-### Carpeta de Programas
+* Carpeta de Programas
 
-#### Programas de Computadora, PLC, etc. 
+	* Programas de Computadora, PLC, etc. 
 
-	* Archivos de parametros de programas y componentes
+		* Archivos de parametros de programas y componentes
 
-	* Codigos fuente
+		* Codigos fuente
 
-	* Programas compilados
+		* Programas compilados
 
-	* Iconos e imagenes utilizados en los programas
+		* Iconos e imagenes utilizados en los programas
 	
-	* Archivos de configuracion de los programas
+		* Archivos de configuracion de los programas
 
-### Carpeta de Pruebas
+* Carpeta de Pruebas
 
-#### Pruebas preliminares del proyecto
+	* Pruebas preliminares del proyecto
 
-	* Programas incompletos, o secciones de programas
+		* Programas incompletos, o secciones de programas
 
-	* Capturas de comunicacion
+		* Capturas de comunicacion
 
-	* Modelos de componentes que se hayan probado
+		* Modelos de componentes que se hayan probado
